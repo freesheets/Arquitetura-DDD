@@ -1,15 +1,27 @@
-Projeto Feito a partir das boas praticas do #Domain-Driven Design#
+# 🚀 Projeto Base DDD — C#
 
-Este projeto tem como função em ajudar os desenvolvedores a criarem APIS independentes!
+Este projeto fornece uma **estrutura inicial para desenvolvimento de APIs em C#/.NET**, criada principalmente para desenvolvedores que estão começando ou que desejam uma base organizada para novos projetos.
 
-![image](https://github.com/freesheets/Projeto-DDD---Base/assets/169274014/adf81feb-4d82-4c25-a557-7bf3c7fe9035)
+A arquitetura foi desenvolvida seguindo conceitos e boas práticas do **Domain-Driven Design (DDD)**, buscando facilitar a criação de **APIs independentes, organizadas, escaláveis e de fácil manutenção**.
 
-o que é o Domain-Driven Design? 
- 
-O DDD é uma abordagem para a modelagem de software que centraliza o desenvolvimento na criação de um modelo de domínio. Quando falamos sobre Design não estamos falando sobre do visual ou layout da aplicação, mas sim em relação ao projeto. 
+<img width="1791" height="878" alt="image" src="https://github.com/user-attachments/assets/4e96c5fd-d72e-4cd3-8765-243c2ae53483" />
 
-O Domain-Driven Design oferece ferramentas de modelagem estratégica e tática capazes de entregar um software refinado e de alta qualidade. É válido ainda ressaltar que o DDD  não é uma tecnologia, framework ou uma metodologia e pode ser utilizado independente
-da linguagem de programação utilizada pelos desenvolvedores. No DDD modelagem e implementação andam juntas.
 
-![Sem título](https://github.com/freesheets/Projeto-DDD---Base/assets/169274014/07f46fd0-50c6-446d-8037-1e2f0544ca99)
+## 🧠 O que é Domain-Driven Design?
 
+**Domain-Driven Design (DDD)** é uma abordagem de desenvolvimento de software que coloca o **domínio e as regras de negócio no centro da aplicação**.
+
+Quando falamos em *Design* no DDD, não estamos nos referindo ao visual ou layout da aplicação, mas sim à **modelagem e arquitetura do software**.
+
+O DDD oferece conceitos de modelagem estratégica e tática que ajudam na construção de sistemas mais organizados, desacoplados e preparados para evoluir.
+
+É importante destacar que o **DDD não é uma tecnologia, framework ou linguagem de programação**. Ele pode ser aplicado independentemente da tecnologia utilizada.
+
+No DDD, **modelagem e implementação caminham juntas**, fazendo com que o código represente de forma clara as regras e conceitos do negócio.
+
+<img width="1670" height="942" alt="image" src="https://github.com/user-attachments/assets/9af1722c-3f94-4536-87bc-91bc3565a5a0" />
+
+
+## 🎯 Objetivo
+
+Fornecer uma base simples e reutilizável para ajudar desenvolvedores na criação de **APIs em C#/.NET utilizando conceitos de DDD**, evitando a necessidade de estruturar toda a arquitetura do projeto do zero.

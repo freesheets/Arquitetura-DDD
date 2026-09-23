@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UFjCIeoO15MSulhkjNxkjU1E+nVjP7SnfiQj5xiJ6iYDZjT2DDWtkqZ4rm13V8evqpffP4/KlMdVODIypPYX/w==",
+  "dgSpecHash": "D0fHPA0y008=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BRUNALDO\\Desktop\\Projeto-DDD-Base\\src\\Api.Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\BRUNO\\Desktop\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

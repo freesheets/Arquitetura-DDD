@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Collections.Generic;
@@ -58,14 +58,9 @@ namespace application
                     Type = SecuritySchemeType.ApiKey
                 });
 
-                c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+                c.AddSecurityRequirement(document => new OpenApiSecurityRequirement {
                     {
-                        new OpenApiSecurityScheme {
-                            Reference = new OpenApiReference {
-                                Id = "Bearer",
-                                Type = ReferenceType.SecurityScheme
-                            }
-                        }, new List<string>()
+                        new OpenApiSecuritySchemeReference("Bearer", document), new List<string>()
                     }
                 });
             });

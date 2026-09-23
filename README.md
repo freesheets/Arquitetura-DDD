@@ -25,3 +25,15 @@ No DDD, **modelagem e implementação caminham juntas**, fazendo com que o códi
 ## 🎯 Objetivo
 
 Fornecer uma base simples e reutilizável para ajudar desenvolvedores na criação de **APIs em C#/.NET utilizando conceitos de DDD**, evitando a necessidade de estruturar toda a arquitetura do projeto do zero.
+
+## Executar o backend
+
+Requer o SDK **.NET 10.0.401** (ou patch posterior da mesma faixa), conforme `global.json`.
+Todos os projetos utilizam `net10.0`. As dependências incluem JWT Bearer 10.0.12 e Swashbuckle.AspNetCore 10.2.3.
+
+```powershell
+dotnet build src/Api.sln --configuration Release
+dotnet run --project src/Api.Application/application.csproj --launch-profile application
+```
+
+O Swagger fica disponível em `http://localhost:5000` e o documento OpenAPI em `http://localhost:5000/swagger/v1/swagger.json`.
